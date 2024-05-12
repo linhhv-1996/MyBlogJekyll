@@ -1,0 +1,63 @@
+---
+# Add a comment to make this file sass-y.
+# Change this file for any custom CSS.
+---
+
+/* We need to add display:inline in order to align the '>>' of the 'read more' link */
+.post-excerpt p {
+	display:inline;
+}
+
+// Import partials from `sass_dir` (defaults to `_sass`)
+@import
+	"syntax",
+    "starsnonscss"
+;
+
+.toc {
+	ul {
+		font-weight: 200;
+		font-size: 1.1rem;
+	}
+}
+
+.ul-pagination {
+	display: flex;
+    padding-left: 0;
+    list-style: none;
+    border-radius: 0.25rem;
+    font-size: 14px;
+    font-weight: 600;
+
+	.page-link {
+		position: relative;
+		display: block;
+		padding: 0.6rem .86rem;
+		margin-left: -1px;
+		line-height: 1.25;
+		color: #03a87c;
+		background-color: #fff;
+		border: 1px solid #dee2e6;
+	}
+
+	.page-link:not(:disabled):not(.disabled) {
+		cursor: pointer;
+	}
+
+	.page-link:hover {
+		z-index: 2;
+		color: #025d45;
+		text-decoration: none;
+		background-color: #e9ecef;
+		border-color: #dee2e6;
+	}
+}
+
+#contact-form {
+	.btn-contact {
+		width: 160px;
+		color: #fff;
+    	background-color: #1C9963;
+    	border-color: #1C9963;
+	}
+}

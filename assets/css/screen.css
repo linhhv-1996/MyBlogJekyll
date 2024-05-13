@@ -337,10 +337,11 @@ span.post-read-more a:hover {
 }
 
 blockquote {
-    border-left: 4px solid #00ab6b;
+    border-left: 2px solid #9d9d9d;
     padding: 0 20px;
     font-style: italic;
-    color: rgba(0, 0, 0, .5);
+    color: rgba(0, 0, 0, .65);
+    background: #f3f3f3;
 }
 
 .article-post p,
@@ -774,7 +775,7 @@ iframe {
         padding: 0;
         height: 350px;
         border-radius: 0;
-        background-image: url(../images/jumbotron.jpg);
+        background-image: url(../images/jumbotron.webp);
         background-size: cover;
     }
 
@@ -792,7 +793,7 @@ iframe {
     margin-top: 3rem;
     padding: 0;
     border-radius: 0;
-    background-image: url(../images/jumbotron.jpg);
+    background-image: url(../images/jumbotron.webp);
     background-size: cover;
 }
 

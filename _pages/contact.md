@@ -8,7 +8,7 @@ comments: false
 <div class="row justify-content-between">
 <div class="col-md-12 row">
 
-<form class="col-md-12" id="contact-form" action="#" method="POST">    
+<form class="col-md-12" id="contact-form" action="{{site.contact_form}}" method="POST">    
     <p class="mb-4">Please send your message to us. We will reply as soon as possible!</p>
     <div class="form-group row">
         <div class="col-md-12 mb-3">

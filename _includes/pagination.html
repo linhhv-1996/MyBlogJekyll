@@ -6,14 +6,14 @@
   {% if paginator.previous_page %}
     <a class="page-link" href="{{ paginator.previous_page_path | prepend: site.baseurl | replace: '//', '/' }}">&laquo; Prev</a>
     {% else %}
-    <a class="page-link disabled">&laquo;</a>
+    <span class="page-link disabled">&laquo;</span>
   {% endif %}
   </li>
 
   {% for page in (1..paginator.total_pages) %}
   <li class="page-item">
     {% if page == paginator.page %}
-      <a class="page-link disabled">{{ page }}</a>
+      <span class="page-link disabled">{{ page }}</span>
     {% elsif page == 1 %}
       <a class="page-link" href="{{ paginator.previous_page_path | prepend: site.baseurl | replace: '//', '/' }}">{{ page }}</a>
     {% else %}

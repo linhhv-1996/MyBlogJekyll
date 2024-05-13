@@ -5,6 +5,7 @@ description: "Better Today, Brilliant Tomorrow."
 logo: 'assets/images/logo.webp'
 favicon: 'assets/images/logo.webp'
 baseurl: 
+url: https://wordwhisperer.co
 google_analytics: 'G-6H46KNRCC3'
 disqus: 'demowebsite'
 mailchimp-list: 'https://wordwhisperer.us17.list-manage.com/subscribe?u=90859a536853310a5315c62e8&id=817c6be5e5'
